@@ -1,1 +1,1 @@
-# PETA-PERSEBARAN-TITIK-GEMPA-BUMI-DI-INDONESIA
+*Peta ini menampilkan persebaran titik-titik gempa bumi yang terjadi di wilayah Indonesia. Data yang disajikan mencakup lokasi kejadian gempa, sehingga dapat memberikan gambaran mengenai tingkat aktivitas seismik di berbagai wilayah. Melalui peta ini, pengguna dapat memahami pola sebaran gempa dan potensi wilayah rawan bencana geologi di Indonesia.*
