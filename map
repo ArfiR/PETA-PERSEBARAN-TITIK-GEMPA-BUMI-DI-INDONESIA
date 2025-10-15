@@ -1,25 +1,66 @@
-<div style="text-align:center; font-family:Arial, sans-serif; margin: 30px 0;">
-  <h3 style="color:#004AAD; margin-bottom:10px;">🗺️ Peta Persebaran Titik Gempa Bumi di Indonesia</h3>
+<div style="
+  text-align:center; 
+  font-family:'Segoe UI', Arial, sans-serif; 
+  margin: 40px 0; 
+  background: linear-gradient(135deg, #EAF3FF 0%, #F7FAFF 100%);
+  padding: 30px 10px; 
+  border-radius: 20px; 
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+">
+
+  <h3 style="
+    color:#003F91; 
+    margin-bottom:8px; 
+    font-size:24px; 
+    font-weight:700; 
+    position:relative; 
+    display:inline-block;
+  ">
+    🗺️ Peta Persebaran Titik Gempa Bumi di Indonesia
+    <span style="
+      position:absolute;
+      left:0; bottom:-6px; 
+      width:100%; 
+      height:3px; 
+      background:linear-gradient(to right,#007BFF,#00BFFF);
+      border-radius:2px;
+    "></span>
+  </h3>
+
+  <p style="
+    color:#004AAD; 
+    font-size:15px; 
+    max-width:700px; 
+    margin: 10px auto 25px; 
+    line-height:1.6;
+  ">
+    Peta ini menampilkan persebaran titik-titik gempa bumi yang terjadi di wilayah Indonesia. 
+    Melalui peta interaktif ini, pengguna dapat mengamati lokasi, pola, serta wilayah dengan 
+    tingkat aktivitas seismik yang tinggi berdasarkan data terkini dari ArcGIS Online.
+  </p>
 
   <div style="
-      border: 4px solid #007BFF;
-      border-radius: 15px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      border: 3px solid #007BFF;
+      border-radius: 20px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
       overflow: hidden;
       width: 100%;
-      max-width: 900px;
-      margin: 0 auto;
-  ">
+      max-width: 950px;
+      margin: 20px auto;
+      transition: all 0.3s ease;
+  " 
+  onmouseover="this.style.boxShadow='0 0 25px rgba(0,123,255,0.6)'"
+  onmouseout="this.style.boxShadow='0 6px 15px rgba(0,0,0,0.2)'">
     <iframe
       src="https://www.arcgis.com/apps/Editor/index.html?appid=ee2c770bde5441949bd648f5fbb41935"
       width="100%"
       height="600"
-      style="border:0;"
+      style="border:0; border-radius:20px;"
       allowfullscreen>
     </iframe>
   </div>
 
-  <p style="color:#0056B3; font-size:14px; margin-top:10px;">
-    <em>Sumber: ArcGIS Online — Aplikasi Peta Persebaran Gempa Bumi Indonesia</em>
+  <p style="color:#0056B3; font-size:15px; margin-top:15px;">
+    <em>🌐 Sumber: <strong>ArcGIS Online</strong> — Aplikasi Peta Persebaran Gempa Bumi Indonesia</em>
   </p>
 </div>
